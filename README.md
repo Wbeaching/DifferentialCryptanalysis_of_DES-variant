@@ -7,8 +7,8 @@ Fall 2010
 
 Project #1: Differential Cryptanalysis of DES-variant
 
-Based on: http://www.cs.bilkent.edu.tr/~selcuk/teaching/cs519/Biham-DC.pdf
+Based on the paper: http://www.cs.bilkent.edu.tr/~selcuk/teaching/cs519/Biham-DC.pdf
 
 **Authors:**
-- Halil Kemal TASKIN
-- Murat DEMIRCIOGLU
+- Halil Kemal Taşkın
+- Murat Demircioğlu
