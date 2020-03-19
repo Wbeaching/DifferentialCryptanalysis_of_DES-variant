@@ -1,0 +1,177 @@
+Halil Kemal TASKIN - Murat DEMIRCIOGLU
+CS519 Project 1: Differential Cryptanalysis of DES-variant.
+
+DES Round Number: 4 and the S-Box order is: 5 3 4 7 2 1 6 8 
+
+Enter Key (14 digit hexadecimal): 11223344556677
+
+Initial Plaintext for 64-bit mLFSR: HEX=590ae38 DEC=93367864
+
+Round 1 Key: 0x2d4265865f24
+Round 2 Key: 0x7d95180d5842
+Round 3 Key: 0x4680cbc4e074
+Round 4 Key: 0x3bc816a18ecc
+
+(3-4-7) Started finding right pairs...
+
+
+Plaintext : 0x4004000000002c85
+Difference: 0x05b4000001940000
+
+
+
+Plaintext : 0x0031133f08a5e454
+Difference: 0x0739000001940000
+
+
+
+Plaintext : 0x2998ec3ce6da3dde
+Difference: 0x0018000001940000
+
+
+
+Plaintext : 0x280e3ab84cc761e7
+Difference: 0x0020000001940000
+
+Found 4 pairs. Starting to find the partial subkeys...
+Please Wait...
+
+Candidates: 
+Count: 4 and the partial subkey bits: 111100010010010110
+Count: 4 and the partial subkey bits: 111100010010111110
+Count: 4 and the partial subkey bits: 111100100000010110
+Count: 4 and the partial subkey bits: 111100100000111110
+Count: 4 and the partial subkey bits: 111111010010010110
+Count: 4 and the partial subkey bits: 111111010010111110
+Count: 4 and the partial subkey bits: 111111100000010110
+Count: 4 and the partial subkey bits: 111111100000111110
+
+(1-6-8) Started finding right pairs...
+
+
+Plaintext : 0x7b3e600800000000
+Difference: 0x00000536000001d4
+
+
+
+Plaintext : 0x00000007b3e60080
+Difference: 0x000000ca000001d4
+
+
+
+Plaintext : 0x004e757a0d800000
+Difference: 0x000000ae000001d4
+
+
+
+Plaintext : 0x514000000273abd0
+Difference: 0x00000006000001d4
+
+Found 4 pairs. Starting to find the partial subkeys...
+Please Wait...
+
+Candidates: 
+Count: 4 and the partial subkey bits: 011000000001001100
+Count: 4 and the partial subkey bits: 011000000001100100
+Count: 4 and the partial subkey bits: 011000111011001100
+Count: 4 and the partial subkey bits: 011000111011100100
+Count: 4 and the partial subkey bits: 011011000001001100
+Count: 4 and the partial subkey bits: 011011000001100100
+Count: 4 and the partial subkey bits: 011011111011001100
+Count: 4 and the partial subkey bits: 011011111011100100
+
+(7-2-1) Started finding right pairs...
+
+
+Plaintext : 0x800800000000590a
+Difference: 0x0002c60000019400
+
+
+
+Plaintext : 0x000273abd06c0000
+Difference: 0x000a800000019400
+
+
+
+Plaintext : 0xfff514000000273a
+Difference: 0x0000020000019400
+
+
+
+Plaintext : 0x0000f9149da1c110
+Difference: 0x0009850000019400
+
+Found 4 pairs. Starting to find the partial subkeys...
+Please Wait...
+
+Candidates: 
+Count: 4 and the partial subkey bits: 010101011010011000
+Count: 4 and the partial subkey bits: 010101011010110000
+Count: 4 and the partial subkey bits: 010101101000011000
+Count: 4 and the partial subkey bits: 010101101000110000
+Count: 4 and the partial subkey bits: 010110011010011000
+Count: 4 and the partial subkey bits: 010110011010110000
+Count: 4 and the partial subkey bits: 010110101000011000
+Count: 4 and the partial subkey bits: 010110101000110000
+
+(8-5-3) Started finding right pairs...
+
+
+Plaintext : 0x00001ecf98020000
+Difference: 0xc700000996000007
+
+
+
+Plaintext : 0x6b7000000c8cc7fd
+Difference: 0x6b00000296000007
+
+
+
+Plaintext : 0xccebb8d1edb0ff2c
+Difference: 0xe000000e96000007
+
+
+
+Plaintext : 0x2ea1fbc0e592e043
+Difference: 0xd200000596000007
+
+Found 4 pairs. Starting to find the partial subkeys...
+Please Wait...
+
+Candidates: 
+Count: 4 and the partial subkey bits: 000011001110010000
+Count: 4 and the partial subkey bits: 000011001110111100
+Count: 4 and the partial subkey bits: 000011111100010000
+Count: 4 and the partial subkey bits: 000011111100111100
+Count: 4 and the partial subkey bits: 001100001110010000
+Count: 4 and the partial subkey bits: 001100001110111100
+Count: 4 and the partial subkey bits: 001100111100010000
+Count: 4 and the partial subkey bits: 001100111100111100
+
+Starting to find possible round keys...
+
+Candidates for the 48-bit last round key:
+Candidate Key 1 : 0x3bc49669804c
+Candidate Key 2 : 0xf3c49669804c
+Candidate Key 3 : 0x3bc496698ecc
+Candidate Key 4 : 0xf3c496698ecc
+Candidate Key 5 : 0x3bc496a1804c
+Candidate Key 6 : 0xf3c496a1804c
+Candidate Key 7 : 0x3bc496a18ecc
+Candidate Key 8 : 0xf3c496a18ecc
+Candidate Key 9 : 0x3bc81669804c
+Candidate Key 10 : 0xf3c81669804c
+Candidate Key 11 : 0x3bc816698ecc
+Candidate Key 12 : 0xf3c816698ecc
+Candidate Key 13 : 0x3bc816a1804c
+Candidate Key 14 : 0xf3c816a1804c
+Candidate Key 15 : 0x3bc816a18ecc
+Candidate Key 16 : 0xf3c816a18ecc
+
+Starting to find the main key...
+
+The Main Key is: 0x11223344556677
+
+Execution Time: 15 seconds
+
+---The End---
