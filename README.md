@@ -1,4 +1,4 @@
-# Reduced Example for Differential cryptanalysis of DES-like cryptosystems
+# Reduced Round Example for Differential cryptanalysis of DES-like cryptosystems
 Bilkent University Computer Engineering
 
 CS519 Cryptography and Network Security
