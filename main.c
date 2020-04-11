@@ -170,7 +170,7 @@ int main()
         //, mask;
         cipherdiff = ciphertext ^ ciphertext2;
 
-        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the en of the f function in a round of DES
+        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the end of the f function in a round of DES
         cipherdiffL = cipherdiff >> 32;
         t_cipherdiffL = n2t(cipherdiffL,32);
         t_cdLtemp = t_cipherdiffL;
@@ -337,7 +337,7 @@ int main()
         //, mask;
         cipherdiff = ciphertext ^ ciphertext2;
 
-        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the en of the f function in a round of DES
+        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the end of the f function in a round of DES
         cipherdiffL = cipherdiff >> 32;
         t_cipherdiffL = n2t(cipherdiffL,32);
         t_cdLtemp = t_cipherdiffL;
@@ -509,7 +509,7 @@ int main()
         //, mask;
         cipherdiff = ciphertext ^ ciphertext2;
 
-        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the en of the f function in a round of DES
+        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the end of the f function in a round of DES
         cipherdiffL = cipherdiff >> 32;
         t_cipherdiffL = n2t(cipherdiffL,32);
         t_cdLtemp = t_cipherdiffL;
@@ -676,7 +676,7 @@ int main()
         //, mask;
         cipherdiff = ciphertext ^ ciphertext2;
 
-        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the en of the f function in a round of DES
+        // apply the inverse P to the cipherdiff to eliminate the effect of the permutation P at the end of the f function in a round of DES
         cipherdiffL = cipherdiff >> 32;
         t_cipherdiffL = n2t(cipherdiffL,32);
         t_cdLtemp = t_cipherdiffL;
